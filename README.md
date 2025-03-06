@@ -22,7 +22,7 @@ Ankit Singh</a></h1>
 
 - 💬 Ask me about **JavaScript && C++**
 
-- 📫 How to reach me **ankit.singh.98.0001@gmail.com**
+- 📫 How to reach me **mrankitsingh056@gmail.com**
 
 - 📄 Know about my experiences <a href="https://github.com/Resume.pdf" target="blank">Resume</a>
 <br/>
