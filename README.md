@@ -1,7 +1,5 @@
 <!-- ═══════════════════════════  QUANTUM HEADER  ═══════════════════════════ -->
-<p align="center">
-  <img src="./assets/quantum-header.svg" width="100%" alt="Ankit Singh — quantum network banner"/>
-</p>
+
 
 <p align="center">
   <a href="https://github.com/mr-ankit-singh">
