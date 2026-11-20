@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-label="Mission log - building, learning, writing, practising">
+<defs>
+  <linearGradient id="cardbg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0f0729"/><stop offset="100%" stop-color="#04020d"/>
+  </linearGradient>
+  <linearGradient id="border" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00f5ff"><animate attributeName="stop-color" values="#00f5ff;#a855f7;#ff2bd6;#00f5ff" dur="6s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#ff2bd6"><animate attributeName="stop-color" values="#ff2bd6;#00f5ff;#a855f7;#ff2bd6" dur="6s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <linearGradient id="txt" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#00f5ff"><animate attributeName="stop-color" values="#00f5ff;#a855f7;#ff2bd6;#00f5ff" dur="6s" repeatCount="indefinite"/></stop>
+    <stop offset="50%" stop-color="#a855f7"><animate attributeName="stop-color" values="#a855f7;#ff2bd6;#00f5ff;#a855f7" dur="6s" repeatCount="indefinite"/></stop>
+    <stop offset="100%" stop-color="#ff2bd6"><animate attributeName="stop-color" values="#ff2bd6;#00f5ff;#a855f7;#ff2bd6" dur="6s" repeatCount="indefinite"/></stop>
+  </linearGradient>
+  <radialGradient id="core" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#ffffff"/><stop offset="25%" stop-color="#a5f3fc"/>
+    <stop offset="55%" stop-color="#22d3ee" stop-opacity="0.6"/><stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.6"/><stop offset="60%" stop-color="#1e1b4b" stop-opacity="0.25"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="shell" cx="38%" cy="32%" r="70%">
+    <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.2"/><stop offset="70%" stop-color="#4c1d95" stop-opacity="0.1"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0.38"/>
+  </radialGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="big" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="14"/></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#7c3aed" stroke-opacity="0.07"/>
+  </pattern>
+</defs>
+<rect x="2" y="2" width="1196" height="286" rx="22" fill="url(#cardbg)" stroke="url(#border)" stroke-width="2.5"/><rect x="2" y="2" width="1196" height="286" rx="22" fill="url(#grid)"/>
+<circle cx="535" cy="195" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" begin="3.0s" repeatCount="indefinite"/></circle>
+<circle cx="1097" cy="26" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.3s" begin="1.0s" repeatCount="indefinite"/></circle>
+<circle cx="118" cy="92" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.1s" begin="3.5s" repeatCount="indefinite"/></circle>
+<circle cx="791" cy="64" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.7s" begin="2.9s" repeatCount="indefinite"/></circle>
+<circle cx="847" cy="155" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.7s" begin="3.1s" repeatCount="indefinite"/></circle>
+<circle cx="338" cy="48" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.9s" begin="1.8s" repeatCount="indefinite"/></circle>
+<circle cx="282" cy="12" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.6s" begin="0.9s" repeatCount="indefinite"/></circle>
+<circle cx="351" cy="97" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.9s" begin="0.8s" repeatCount="indefinite"/></circle>
+<circle cx="431" cy="105" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.6s" begin="3.9s" repeatCount="indefinite"/></circle>
+<circle cx="796" cy="164" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.1s" begin="0.7s" repeatCount="indefinite"/></circle>
+<circle cx="310" cy="147" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.0s" begin="3.3s" repeatCount="indefinite"/></circle>
+<circle cx="18" cy="185" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.9s" begin="3.3s" repeatCount="indefinite"/></circle>
+<circle cx="996" cy="173" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.4s" begin="2.8s" repeatCount="indefinite"/></circle>
+<circle cx="128" cy="143" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" begin="1.4s" repeatCount="indefinite"/></circle>
+<circle cx="839" cy="21" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.4s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle cx="30" cy="243" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.1s" begin="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="414" cy="72" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" begin="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="717" cy="274" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.7s" begin="1.0s" repeatCount="indefinite"/></circle>
+<circle cx="959" cy="67" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.2s" begin="3.2s" repeatCount="indefinite"/></circle>
+<circle cx="617" cy="30" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" begin="0.4s" repeatCount="indefinite"/></circle>
+<circle cx="709" cy="274" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.1s" begin="0.6s" repeatCount="indefinite"/></circle>
+<circle cx="576" cy="59" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.1s" begin="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="172" cy="88" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.1s" begin="4.0s" repeatCount="indefinite"/></circle>
+<circle cx="342" cy="36" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="5.0s" begin="2.1s" repeatCount="indefinite"/></circle>
+<circle cx="843" cy="28" r="0.6" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.2s" begin="1.4s" repeatCount="indefinite"/></circle>
+<circle cx="524" cy="245" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="3.3s" begin="0.2s" repeatCount="indefinite"/></circle>
+<circle cx="79" cy="264" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+<circle cx="1167" cy="79" r="1.2" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.7s" begin="1.7s" repeatCount="indefinite"/></circle>
+<circle cx="357" cy="234" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="2.4s" begin="3.4s" repeatCount="indefinite"/></circle>
+<circle cx="615" cy="84" r="0.9" fill="#fff"><animate attributeName="opacity" values="0.1;0.8;0.1" dur="4.8s" begin="2.5s" repeatCount="indefinite"/></circle>
+<text x="36" y="48" font-family="Consolas, 'Fira Code', 'Courier New', monospace" font-size="15" letter-spacing="5" fill="#a78bfa">// MISSION LOG</text>
+<line x1="36" y1="62" x2="1164" y2="62" stroke="url(#border)" stroke-opacity="0.5"/>
+<rect x="36" y="82" width="270" height="176" rx="16" fill="#00f5ff" fill-opacity="0.05" stroke="#00f5ff" stroke-opacity="0.5"/>
+<circle cx="64" cy="112" r="10" fill="none" stroke="#00f5ff" stroke-width="2"/><circle cx="64" cy="112" r="4" fill="#00f5ff" filter="url(#glow)"><animate attributeName="r" values="3;5;3" dur="2s" begin="0.0s" repeatCount="indefinite"/></circle>
+<text x="84" y="118" font-family="Consolas, 'Fira Code', 'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#00f5ff">BUILDING</text>
+<text x="58" y="152" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">AI-powered apps with</text>
+<text x="58" y="176" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">LangChain + FastAPI</text>
+<text x="58" y="200" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">Full-stack MERN projects</text>
+<rect x="58" y="234" width="226" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+<rect x="58" y="234" width="0" height="6" rx="3" fill="#00f5ff" filter="url(#glow)"><animate attributeName="width" values="0;176" dur="1.6s" begin="0.3s" fill="freeze"/></rect>
+<rect x="326" y="82" width="270" height="176" rx="16" fill="#a855f7" fill-opacity="0.05" stroke="#a855f7" stroke-opacity="0.5"/>
+<circle cx="354" cy="112" r="10" fill="none" stroke="#a855f7" stroke-width="2"/><circle cx="354" cy="112" r="4" fill="#a855f7" filter="url(#glow)"><animate attributeName="r" values="3;5;3" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>
+<text x="374" y="118" font-family="Consolas, 'Fira Code', 'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#a855f7">LEARNING</text>
+<text x="348" y="152" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">LLM apps: chains, prompts,</text>
+<text x="348" y="176" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">RAG basics</text>
+<text x="348" y="200" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">Clean REST APIs</text>
+<rect x="348" y="234" width="226" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+<rect x="348" y="234" width="0" height="6" rx="3" fill="#a855f7" filter="url(#glow)"><animate attributeName="width" values="0;140" dur="1.6s" begin="0.5s" fill="freeze"/></rect>
+<rect x="616" y="82" width="270" height="176" rx="16" fill="#ff2bd6" fill-opacity="0.05" stroke="#ff2bd6" stroke-opacity="0.5"/>
+<circle cx="644" cy="112" r="10" fill="none" stroke="#ff2bd6" stroke-width="2"/><circle cx="644" cy="112" r="4" fill="#ff2bd6" filter="url(#glow)"><animate attributeName="r" values="3;5;3" dur="2s" begin="0.8s" repeatCount="indefinite"/></circle>
+<text x="664" y="118" font-family="Consolas, 'Fira Code', 'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#ff2bd6">WRITING</text>
+<text x="638" y="152" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">Deep, runnable notes on</text>
+<text x="638" y="176" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="700" fill="#ffffff">C++ STL &amp; OOP</text>
+<text x="638" y="200" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">basics → design patterns</text>
+<rect x="638" y="234" width="226" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+<rect x="638" y="234" width="0" height="6" rx="3" fill="#ff2bd6" filter="url(#glow)"><animate attributeName="width" values="0;203" dur="1.6s" begin="0.7s" fill="freeze"/></rect>
+<rect x="906" y="82" width="270" height="176" rx="16" fill="#22c55e" fill-opacity="0.05" stroke="#22c55e" stroke-opacity="0.5"/>
+<circle cx="934" cy="112" r="10" fill="none" stroke="#22c55e" stroke-width="2"/><circle cx="934" cy="112" r="4" fill="#22c55e" filter="url(#glow)"><animate attributeName="r" values="3;5;3" dur="2s" begin="1.2000000000000002s" repeatCount="indefinite"/></circle>
+<text x="954" y="118" font-family="Consolas, 'Fira Code', 'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="3" fill="#22c55e">PRACTISING</text>
+<text x="928" y="152" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">DSA in C++</text>
+<text x="928" y="176" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">arrays → graphs</text>
+<text x="928" y="200" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="400" fill="#d8d0f5">one node at a time</text>
+<rect x="928" y="234" width="226" height="6" rx="3" fill="#ffffff" fill-opacity="0.08"/>
+<rect x="928" y="234" width="0" height="6" rx="3" fill="#22c55e" filter="url(#glow)"><animate attributeName="width" values="0;158" dur="1.6s" begin="0.9s" fill="freeze"/></rect>
+</svg>
