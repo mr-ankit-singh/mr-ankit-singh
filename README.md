@@ -18,18 +18,80 @@
 
 <img src="./assets/signal-divider.svg" width="100%" alt="divider"/>
 
-<!-- ═══════════════════════════  ABOUT  ═══════════════════════════ -->
+<!-- ═══════════════════════════  WHOAMI  ═══════════════════════════ -->
 ## ⚛️ `whoami`
 
-<p align="center">
-  <img src="./assets/whoami.svg" width="100%" alt="whoami — Ankit Singh: Full Stack Developer, MERN, AI/ML (LangChain, FastAPI), DSA"/>
-</p>
+<table>
+<tr>
+<td width="56%" valign="top">
 
-<p align="center">
-  🔭 Self-taught <b>Full Stack Developer</b> &nbsp;·&nbsp; 🤖 Exploring <b>AI / ML</b> with <b>LangChain</b> &amp; <b>FastAPI</b> &nbsp;·&nbsp; 🧬 Writing deep notes on <b>C++ STL &amp; OOP</b>
-  <br/>
-  📄 Know about my experience → <a href="https://github.com/Resume.pdf" target="_blank">Resume</a>
-</p>
+**`ankit@quantum-node: ~`**
+
+```bash
+❯ whoami
+Ankit Singh   # CSE student · builder · learner
+
+❯ cat profile.json
+```
+
+```json
+{
+  "role"     : "Full Stack Developer",
+  "focus"    : ["MERN", "AI / ML", "DSA"],
+  "ai_stack" : ["LangChain", "FastAPI", "Python"],
+  "web"      : ["React", "Node", "Express", "MongoDB"],
+  "ask_me"   : ["JavaScript", "C++"],
+  "status"   : "building AI-powered MERN apps 🚀"
+}
+```
+
+```bash
+❯ ./connect --open-to collaboration
+● online — mrankitsingh056@gmail.com
+```
+
+</td>
+<td width="44%" align="center" valign="middle">
+  <img src="./assets/quantum-sphere.svg" width="100%" alt="rotating 3D quantum sphere"/>
+</td>
+</tr>
+</table>
+
+### 🛰️ Mission Log
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🚀 Building**
+- AI-powered apps with **LangChain** + **FastAPI**
+- Full-stack **MERN** projects
+
+**🧠 Learning**
+- LLM apps: chains, prompts, RAG basics
+- Clean REST APIs with FastAPI & Express
+
+</td>
+<td width="50%" valign="top">
+
+**📚 Writing**
+- Deep, runnable notes on **C++ STL** & **OOP**
+- From basics to design patterns & mini projects
+
+**⚡ Practising**
+- **DSA in C++** — arrays to graphs
+- Problem solving, one node at a time
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+💬 **Ask me about** JavaScript · C++ &nbsp;&nbsp;|&nbsp;&nbsp; 🤝 **Open to** collaboration & new tech &nbsp;&nbsp;|&nbsp;&nbsp; 📄 <a href="https://github.com/Resume.pdf" target="_blank"><b>Resume</b></a>
+
+</td>
+</tr>
+</table>
 
 <img src="./assets/signal-divider.svg" width="100%" alt="divider"/>
 
@@ -38,83 +100,78 @@
 
 <table>
 <tr>
-<td align="center" width="25%"><b>⚛️ Languages</b></td>
+<td align="center" width="150"><b>⚛️ Languages</b></td>
 <td>
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="42" height="42" alt="C" title="C"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="42" height="42" alt="C++" title="C++"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="42" height="42" alt="Python" title="Python"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="42" height="42" alt="Java" title="Java"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="42" height="42" alt="JavaScript" title="JavaScript"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="42" height="42" alt="TypeScript" title="TypeScript"/>
 </td>
 </tr>
 <tr>
 <td align="center"><b>🤖 AI / ML</b></td>
 <td>
-  <img src="https://img.shields.io/badge/AI%20%2F%20ML-8B5CF6?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" width="42" height="42" alt="AI / ML" title="AI / ML"/>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/langchain/00a67e" width="42" height="42" alt="LangChain" title="LangChain"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="42" height="42" alt="FastAPI" title="FastAPI"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="42" height="42" alt="Jupyter" title="Jupyter"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="42" height="42" alt="NumPy" title="NumPy"/>
 </td>
 </tr>
 <tr>
 <td align="center"><b>🎨 Front-End</b></td>
 <td>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="42" height="42" alt="HTML5" title="HTML5"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="42" height="42" alt="CSS3" title="CSS3"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="42" height="42" alt="React" title="React"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" width="42" height="42" alt="Redux" title="Redux"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="42" height="42" alt="Bootstrap" title="Bootstrap"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="42" height="42" alt="Sass" title="Sass"/>
 </td>
 </tr>
 <tr>
 <td align="center"><b>🛰️ Back-End</b></td>
 <td>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="42" height="42" alt="Node.js" title="Node.js"/>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/express/a855f7" width="42" height="42" alt="Express.js" title="Express.js"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" width="42" height="42" alt="FastAPI" title="FastAPI"/>
 </td>
 </tr>
 <tr>
 <td align="center"><b>🧬 Databases</b></td>
 <td>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MS%20SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
-</td>
-</tr>
-<tr>
-<td align="center"><b>☁️ Hosting</b></td>
-<td>
-  <img src="https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="42" height="42" alt="MongoDB" title="MongoDB"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="42" height="42" alt="MySQL" title="MySQL"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" width="42" height="42" alt="MS SQL Server" title="MS SQL Server"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg" width="42" height="42" alt="Firebase" title="Firebase"/>
 </td>
 </tr>
 <tr>
 <td align="center"><b>🔧 Tools</b></td>
 <td>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Terminal-4D4D4D?style=for-the-badge&logo=gnubash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="42" height="42" alt="Git" title="Git"/>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/github/a855f7" width="42" height="42" alt="GitHub" title="GitHub"/>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/githubpages/a855f7" width="42" height="42" alt="GitHub Pages" title="GitHub Pages"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="42" height="42" alt="VS Code" title="VS Code"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="42" height="42" alt="Postman" title="Postman"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="42" height="42" alt="Linux" title="Linux"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="42" height="42" alt="Bash" title="Bash"/>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/markdown/a855f7" width="42" height="42" alt="Markdown" title="Markdown"/>
 </td>
 </tr>
 <tr>
 <td align="center"><b>✨ Design</b></td>
 <td>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Framer-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Blender-E87D0D?style=for-the-badge&logo=blender&logoColor=white"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="42" height="42" alt="Figma" title="Figma"/>&nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/framer/0055ff" width="42" height="42" alt="Framer" title="Framer"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-original.svg" width="42" height="42" alt="Photoshop" title="Photoshop"/>&nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" width="42" height="42" alt="Blender" title="Blender"/>
 </td>
 </tr>
 </table>
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,py,java,js,html,css,react,redux,nodejs,express,fastapi,mongodb,mysql,firebase,tailwind,sass,bootstrap,git,github,linux,postman,figma,blender,ps,vscode&perline=13" alt="skill icons"/>
-</p>
 
 <img src="./assets/signal-divider.svg" width="100%" alt="divider"/>
 
@@ -122,12 +179,16 @@
 ## 🔭 Featured Nodes — `repositories`
 
 <p align="center">
-  <a href="https://github.com/mr-ankit-singh/CPP-STL">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mr-ankit-singh&repo=CPP-STL&theme=tokyonight&hide_border=true&bg_color=0a0520&title_color=00f5ff&icon_color=ff2bd6&text_color=c4b5fd" alt="CPP-STL"/>
-  </a>
-  <a href="https://github.com/mr-ankit-singh/CPP-OOPs">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=mr-ankit-singh&repo=CPP-OOPs&theme=tokyonight&hide_border=true&bg_color=0a0520&title_color=00f5ff&icon_color=ff2bd6&text_color=c4b5fd" alt="CPP-OOPs"/>
-  </a>
+  <a href="https://github.com/mr-ankit-singh/Standard-Template-Library-CPP"><img src="./assets/repo-cpp-stl.svg" width="49%" alt="Standard-Template-Library-CPP"/></a>
+  <a href="https://github.com/mr-ankit-singh/CPP-OOPs"><img src="./assets/repo-cpp-oops.svg" width="49%" alt="CPP-OOPs"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/mr-ankit-singh/CPP"><img src="./assets/repo-cpp.svg" width="49%" alt="CPP"/></a>
+  <a href="https://github.com/mr-ankit-singh/AdventureAI"><img src="./assets/repo-adventure-ai.svg" width="49%" alt="AdventureAI"/></a>
+</p>
+<p align="center">
+  <a href="https://github.com/mr-ankit-singh/Python-OOPs"><img src="./assets/repo-python-oops.svg" width="49%" alt="Python-OOPs"/></a>
+  <a href="https://github.com/mr-ankit-singh/JavaScript"><img src="./assets/repo-javascript.svg" width="49%" alt="JavaScript"/></a>
 </p>
 
 <img src="./assets/signal-divider.svg" width="100%" alt="divider"/>

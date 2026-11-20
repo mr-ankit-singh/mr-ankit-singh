@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="165" viewBox="0 0 495 165" role="img" aria-label="Python-OOPs repository card">
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#0d0624"/><stop offset="100%" stop-color="#05020f"/>
+  </linearGradient>
+  <linearGradient id="bd" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#22c55e"/><stop offset="100%" stop-color="#a855f7" stop-opacity="0.4"/>
+  </linearGradient>
+  <filter id="g" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<style>
+  .n { font: 700 18px 'Segoe UI', Arial, sans-serif; }
+  .d { font: 400 13px 'Segoe UI', Arial, sans-serif; }
+  .m { font: 600 12px Consolas, 'Fira Code', monospace; }
+</style>
+<rect x="1.5" y="1.5" width="492" height="162" rx="14" fill="url(#bg)" stroke="url(#bd)" stroke-width="2"/>
+<rect x="1.5" y="1.5" width="6" height="162" rx="3" fill="#22c55e" opacity="0.9"/>
+<circle cx="461" cy="32" r="13" fill="none" stroke="#22c55e" stroke-opacity="0.5"/>
+<circle cx="461" cy="32" r="4" fill="#22c55e" filter="url(#g)"><animate attributeName="r" values="3;5.5;3" dur="2.4s" repeatCount="indefinite"/></circle>
+<circle r="2.5" fill="#ffffff"><animateMotion dur="3s" repeatCount="indefinite" path="M448 32 a13 13 0 1 0 26 0 a13 13 0 1 0 -26 0"/></circle>
+<path d="M26 22 h14 v18 h-14 z M29 27 h8 M29 31 h8 M29 35 h5" fill="none" stroke="#22c55e" stroke-width="1.6"/>
+<text x="50" y="38" class="n" fill="#22c55e">Python-OOPs</text>
+<text x="26" y="68" class="d" fill="#c4b5fd">Python Object-Oriented Programming notes and practice</text>
+<text x="26" y="87" class="d" fill="#c4b5fd">code: classes, inheritance, polymorphism, encapsulation,</text>
+<text x="26" y="106" class="d" fill="#c4b5fd">magic methods and more.</text>
+<circle cx="32" cy="141" r="6" fill="#3572A5"/>
+<text x="44" y="145" class="m" fill="#e9d5ff">Python</text>
+<rect x="112" y="129" width="62" height="22" rx="11" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.6"/>
+<text x="143" y="144" class="m" fill="#22c55e" text-anchor="middle">Python</text>
+<rect x="182" y="129" width="40" height="22" rx="11" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.6"/>
+<text x="202" y="144" class="m" fill="#22c55e" text-anchor="middle">OOP</text>
+<rect x="231" y="129" width="77" height="22" rx="11" fill="#22c55e" fill-opacity="0.12" stroke="#22c55e" stroke-opacity="0.6"/>
+<text x="269" y="144" class="m" fill="#22c55e" text-anchor="middle">Practice</text>
+</svg>
