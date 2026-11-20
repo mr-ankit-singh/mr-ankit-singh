@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/mr-ankit-singh">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=%3E+Initializing+quantum+link...;%3E+Full+Stack+Developer+%7C+MERN;%3E+C%2B%2B+%26+DSA+Enthusiast;%3E+Transmitting+code+across+nodes+%E2%9A%9B%EF%B8%8F" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00F5FF&center=true&vCenter=true&width=700&lines=%3E+Initializing+quantum+link...;%3E+Full+Stack+Developer+%7C+MERN;%3E+AI+%2F+ML+%7C+LangChain+%7C+FastAPI;%3E+C%2B%2B+%26+DSA+Enthusiast;%3E+Transmitting+code+across+nodes+%E2%9A%9B%EF%B8%8F" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -21,37 +21,15 @@
 <!-- ═══════════════════════════  ABOUT  ═══════════════════════════ -->
 ## ⚛️ `whoami`
 
-<table>
-<tr>
-<td width="58%" valign="top">
+<p align="center">
+  <img src="./assets/whoami.svg" width="100%" alt="whoami — Ankit Singh: Full Stack Developer, MERN, AI/ML (LangChain, FastAPI), DSA"/>
+</p>
 
-```javascript
-const ankit = {
-  role       : "Computer Science & Engineering Student",
-  title      : "Self-taught Full Stack Developer",
-  building   : "MERN stack projects",
-  learning   : ["React", "Node.js", "Express.js", "MongoDB"],
-  askMeAbout : ["JavaScript", "C++"],
-  habits     : "reading tech articles to stay up to date",
-  openTo     : "learning new technologies & collaboration",
-  contact    : "mrankitsingh056@gmail.com",
-};
-
-ankit.transmit("Hello, World! 👋");
-```
-
-</td>
-<td width="42%" align="center" valign="middle">
-  <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="100%" alt="coding gif"/>
-</td>
-</tr>
-</table>
-
-- 🔭 A passionate **self-taught Full Stack developer**
-- 🌱 Currently working on a **MERN** project and learning **React, Node.js, Express.js & MongoDB**
-- 🧬 Writing deep, runnable notes on **C++ STL & OOP**
-- 💬 Ask me about **JavaScript & C++**
-- 📄 Know about my experience → <a href="https://github.com/Resume.pdf" target="_blank">Resume</a>
+<p align="center">
+  🔭 Self-taught <b>Full Stack Developer</b> &nbsp;·&nbsp; 🤖 Exploring <b>AI / ML</b> with <b>LangChain</b> &amp; <b>FastAPI</b> &nbsp;·&nbsp; 🧬 Writing deep notes on <b>C++ STL &amp; OOP</b>
+  <br/>
+  📄 Know about my experience → <a href="https://github.com/Resume.pdf" target="_blank">Resume</a>
+</p>
 
 <img src="./assets/signal-divider.svg" width="100%" alt="divider"/>
 
@@ -67,6 +45,14 @@ ankit.transmit("Hello, World! 👋");
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</td>
+</tr>
+<tr>
+<td align="center"><b>🤖 AI / ML</b></td>
+<td>
+  <img src="https://img.shields.io/badge/AI%20%2F%20ML-8B5CF6?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
 </td>
 </tr>
 <tr>
@@ -127,7 +113,7 @@ ankit.transmit("Hello, World! 👋");
 </table>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,py,java,js,html,css,react,redux,nodejs,express,mongodb,mysql,firebase,tailwind,sass,bootstrap,git,github,linux,postman,figma,blender,ps,vscode&perline=13" alt="skill icons"/>
+  <img src="https://skillicons.dev/icons?i=c,cpp,py,java,js,html,css,react,redux,nodejs,express,fastapi,mongodb,mysql,firebase,tailwind,sass,bootstrap,git,github,linux,postman,figma,blender,ps,vscode&perline=13" alt="skill icons"/>
 </p>
 
 <img src="./assets/signal-divider.svg" width="100%" alt="divider"/>

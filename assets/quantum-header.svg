@@ -22,6 +22,9 @@
     <feGaussianBlur stdDeviation="8" result="b"/>
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter>
+  <filter id="aurora" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="55"/>
+  </filter>
   <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
     <path d="M40 0H0V40" fill="none" stroke="#7c3aed" stroke-opacity="0.08" stroke-width="1"/>
   </pattern>
@@ -40,6 +43,11 @@
 </style>
 <rect width="1200" height="420" fill="url(#bg)"/>
 <rect width="1200" height="420" fill="url(#grid)"/>
+<g opacity="0.55">
+  <circle cx="470" cy="190" r="150" fill="#7c3aed" filter="url(#aurora)"><animate attributeName="cx" values="430;560;430" dur="11s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="210" r="130" fill="#0891b2" filter="url(#aurora)"><animate attributeName="cx" values="800;660;800" dur="13s" repeatCount="indefinite"/></circle>
+  <circle cx="600" cy="150" r="90" fill="#db2777" filter="url(#aurora)" opacity="0.7"><animate attributeName="cy" values="140;230;140" dur="9s" repeatCount="indefinite"/></circle>
+</g>
 <g>
 <circle cx="663" cy="77" r="1.3" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.6s" begin="0.4s" repeatCount="indefinite"/></circle>
 <circle cx="1097" cy="48" r="1.0" fill="#ffffff"><animate attributeName="opacity" values="0.1;0.9;0.1" dur="4.3s" begin="4.5s" repeatCount="indefinite"/></circle>
@@ -267,20 +275,24 @@
 <g transform="rotate(60 1085 175)"><path id="orb1" d="M1037 175 a48 16 0 1 0 96 0 a48 16 0 1 0 -96 0" fill="none" stroke="#00f5ff" stroke-opacity="0.45" stroke-width="1.2"/><circle r="3.5" fill="#a855f7"><animateMotion dur="2.7s" repeatCount="indefinite"><mpath xlink:href="#orb1"/></animateMotion></circle></g>
 <g transform="rotate(120 1085 175)"><path id="orb2" d="M1037 175 a48 16 0 1 0 96 0 a48 16 0 1 0 -96 0" fill="none" stroke="#00f5ff" stroke-opacity="0.45" stroke-width="1.2"/><circle r="3.5" fill="#ff2bd6"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath xlink:href="#orb2"/></animateMotion></circle></g>
 </g>
+<g transform="rotate(-7 600 205)"><path id="ring0" d="M200 205 a400 78 0 1 0 800 0 a400 78 0 1 0 -800 0" fill="none" stroke="#00f5ff" stroke-opacity="0.28" stroke-width="1.4" stroke-dasharray="2 5"/><circle r="5" fill="#00f5ff" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion></circle><circle r="3" fill="#ffffff" filter="url(#glow)"><animateMotion dur="7s" begin="3.5s" repeatCount="indefinite"><mpath xlink:href="#ring0"/></animateMotion></circle></g>
+<g transform="rotate(7 600 205)"><path id="ring1" d="M200 205 a400 78 0 1 0 800 0 a400 78 0 1 0 -800 0" fill="none" stroke="#ff2bd6" stroke-opacity="0.28" stroke-width="1.4" stroke-dasharray="2 5"/><circle r="5" fill="#ff2bd6" filter="url(#glow)"><animateMotion dur="9s" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion></circle><circle r="3" fill="#ffffff" filter="url(#glow)"><animateMotion dur="9s" begin="4.5s" repeatCount="indefinite"><mpath xlink:href="#ring1"/></animateMotion></circle></g>
 <g text-anchor="middle">
+  <text x="600" y="196" class="title" fill="#00f5ff" opacity="0.55">ANKIT SINGH<animate attributeName="x" values="600;600;594;604;600" keyTimes="0;0.9;0.93;0.96;1" dur="3.5s" repeatCount="indefinite"/></text>
+  <text x="600" y="196" class="title" fill="#ff2bd6" opacity="0.55">ANKIT SINGH<animate attributeName="x" values="600;600;606;596;600" keyTimes="0;0.9;0.93;0.96;1" dur="3.5s" repeatCount="indefinite"/></text>
   <text x="600" y="196" class="title" fill="url(#txt)" filter="url(#softglow)"><tspan class="flick">ANKIT SINGH</tspan></text>
-  <text x="600" y="238" class="sub" fill="#c4b5fd">&lt; Full Stack Developer · C++ · Problem Solver /&gt;</text>
+  <text x="600" y="238" class="sub" fill="#e9d5ff">&lt; Full Stack Developer · AI Enthusiast · DSA /&gt;</text>
 </g>
 <polyline points="330,272.0 334,271.8 338,271.9 342,272.3 346,272.9 350,273.5 354,273.9 358,274.0 362,273.5 366,272.5 370,271.1 374,269.7 378,268.5 382,267.8 386,268.0 390,269.1 394,271.0 398,273.3 402,275.6 406,277.4 410,278.3 414,277.9 418,276.3 422,273.7 426,270.5 430,267.3 434,264.9 438,263.8 442,264.2 446,266.3 450,269.6 454,273.6 458,277.5 462,280.5 466,281.9 470,281.4 474,279.0 478,275.1 482,270.4 486,265.8 490,262.3 494,260.6 498,261.1 502,263.8 506,268.2 510,273.4 514,278.6 518,282.5 522,284.5 526,284.1 530,281.2 534,276.5 538,270.9 542,265.3 546,261.0 550,258.7 554,259.1 558,262.0 562,266.8 566,272.8 570,278.6 574,283.2 578,285.7 582,285.4 586,282.6 590,277.7 594,271.6 598,265.6 602,260.9 606,258.3 610,258.4 614,261.1 618,266.0 622,271.9 626,277.9 630,282.7 634,285.3 638,285.4 642,282.8 646,278.2 650,272.5 654,266.7 658,262.0 662,259.4 666,259.2 670,261.5 674,265.8 678,271.2 682,276.6 686,281.0 690,283.6 694,283.8 698,281.8 702,278.0 706,273.1 710,268.2 714,264.1 718,261.8 722,261.4 726,263.2 730,266.5 734,270.8 738,275.0 742,278.6 746,280.6 750,281.0 754,279.6 758,276.8 762,273.3 766,269.7 770,266.9 774,265.1 778,264.9 782,266.0 786,268.1 790,270.8 794,273.5 798,275.7 802,276.9 806,277.1 810,276.3 814,274.8 818,272.9 822,271.1 826,269.8 830,269.1 834,269.1 838,269.6 842,270.6 846,271.5 850,272.3 854,272.8 858,272.9 862,272.7 866,272.3 870,272.0" fill="none" stroke="#a855f7" stroke-opacity="0.25" stroke-width="1.2"/>
 <polyline points="330,272.0 334,271.8 338,271.9 342,272.3 346,272.9 350,273.5 354,273.9 358,274.0 362,273.5 366,272.5 370,271.1 374,269.7 378,268.5 382,267.8 386,268.0 390,269.1 394,271.0 398,273.3 402,275.6 406,277.4 410,278.3 414,277.9 418,276.3 422,273.7 426,270.5 430,267.3 434,264.9 438,263.8 442,264.2 446,266.3 450,269.6 454,273.6 458,277.5 462,280.5 466,281.9 470,281.4 474,279.0 478,275.1 482,270.4 486,265.8 490,262.3 494,260.6 498,261.1 502,263.8 506,268.2 510,273.4 514,278.6 518,282.5 522,284.5 526,284.1 530,281.2 534,276.5 538,270.9 542,265.3 546,261.0 550,258.7 554,259.1 558,262.0 562,266.8 566,272.8 570,278.6 574,283.2 578,285.7 582,285.4 586,282.6 590,277.7 594,271.6 598,265.6 602,260.9 606,258.3 610,258.4 614,261.1 618,266.0 622,271.9 626,277.9 630,282.7 634,285.3 638,285.4 642,282.8 646,278.2 650,272.5 654,266.7 658,262.0 662,259.4 666,259.2 670,261.5 674,265.8 678,271.2 682,276.6 686,281.0 690,283.6 694,283.8 698,281.8 702,278.0 706,273.1 710,268.2 714,264.1 718,261.8 722,261.4 726,263.2 730,266.5 734,270.8 738,275.0 742,278.6 746,280.6 750,281.0 754,279.6 758,276.8 762,273.3 766,269.7 770,266.9 774,265.1 778,264.9 782,266.0 786,268.1 790,270.8 794,273.5 798,275.7 802,276.9 806,277.1 810,276.3 814,274.8 818,272.9 822,271.1 826,269.8 830,269.1 834,269.1 838,269.6 842,270.6 846,271.5 850,272.3 854,272.8 858,272.9 862,272.7 866,272.3 870,272.0" fill="none" stroke="#00f5ff" stroke-width="2" stroke-dasharray="120 900" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="1020;0" dur="2.8s" repeatCount="indefinite"/></polyline>
+<line x1="310" y1="314" x2="890" y2="314" stroke="url(#edge)" stroke-width="1.5" stroke-dasharray="6 8"><animate attributeName="stroke-dashoffset" values="0;-28" dur="1s" repeatCount="indefinite"/></line>
 <g class="tag" text-anchor="middle">
-  <rect x="350" y="300" width="150" height="26" rx="13" fill="#00f5ff" fill-opacity="0.08" stroke="#00f5ff" stroke-opacity="0.6"/>
-  <text x="432" y="318" fill="#67e8f9">MERN STACK</text>
-  <rect x="525" y="300" width="150" height="26" rx="13" fill="#a855f7" fill-opacity="0.08" stroke="#a855f7" stroke-opacity="0.6"/>
-  <text x="600" y="318" fill="#d8b4fe">C++ · DSA</text>
-  <rect x="700" y="300" width="150" height="26" rx="13" fill="#ff2bd6" fill-opacity="0.08" stroke="#ff2bd6" stroke-opacity="0.6"/>
-  <text x="775" y="318" fill="#f9a8d4">OPEN SOURCE</text>
+<rect x="310" y="298" width="180" height="32" rx="16" fill="#0a0520" stroke="#00f5ff" stroke-width="1.5"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></rect><rect x="310" y="298" width="180" height="32" rx="16" fill="#00f5ff" fill-opacity="0.12"/><text x="400" y="319" fill="#67e8f9">⚛ MERN STACK</text>
+<rect x="510" y="298" width="180" height="32" rx="16" fill="#0a0520" stroke="#a855f7" stroke-width="1.5"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect><rect x="510" y="298" width="180" height="32" rx="16" fill="#a855f7" fill-opacity="0.12"/><text x="600" y="319" fill="#e9d5ff">🤖 AI ENTHUSIAST</text>
+<rect x="710" y="298" width="180" height="32" rx="16" fill="#0a0520" stroke="#ff2bd6" stroke-width="1.5"><animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></rect><rect x="710" y="298" width="180" height="32" rx="16" fill="#ff2bd6" fill-opacity="0.12"/><text x="800" y="319" fill="#f9a8d4">⚡ DSA · C++</text>
 </g>
-<circle cx="365" cy="313" r="4" fill="#22c55e"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/></circle>
+<circle cx="400" cy="298" r="3" fill="#00f5ff" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0.0s" repeatCount="indefinite"/></circle>
+<circle cx="600" cy="298" r="3" fill="#a855f7" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></circle>
+<circle cx="800" cy="298" r="3" fill="#ff2bd6" filter="url(#glow)"><animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="1.6s" repeatCount="indefinite"/></circle>
 <rect class="scan" x="0" y="0" width="1200" height="2" fill="#00f5ff" opacity="0.18"/>
 </svg>
